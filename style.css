@@ -1,22 +1,13 @@
-
-/* Font & Reset */
+/* === Global === */
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
   background: #f7f7f7;
   color: #333;
 }
+h1, h2, h3 { margin: 0; }
 
-h1, h2, h3 {
-  margin: 0;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-/* Navbar */
+/* === Navbar === */
 .navbar {
   background: linear-gradient(135deg, #e53935, #d81b60);
   padding: 1rem 2rem;
@@ -28,14 +19,14 @@ a {
   opacity: 0.8;
 }
 
-/* Container */
+/* === Container === */
 .container {
   max-width: 900px;
   margin: 2rem auto;
   padding: 0 1rem;
 }
 
-/* Hero */
+/* === Hero === */
 .hero {
   text-align: center;
   margin-bottom: 2rem;
@@ -49,12 +40,12 @@ a {
   color: #555;
 }
 
-/* Input Box */
+/* === Input Box === */
 .input-box {
   display: flex;
   justify-content: center;
-  margin-bottom: 2rem;
   flex-wrap: wrap;
+  margin-bottom: 2rem;
 }
 .input-box input {
   width: 70%;
@@ -79,7 +70,7 @@ a {
   background: #d81b60;
 }
 
-/* List Section */
+/* === Video List === */
 .list-section h3 {
   text-align: center;
   margin-bottom: 1rem;
@@ -97,7 +88,6 @@ a {
   padding: 1rem;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  overflow: hidden;
 }
 #videoList iframe {
   width: 100%;
@@ -106,7 +96,7 @@ a {
   border-radius: 6px;
 }
 
-/* Footer */
+/* === Footer === */
 .footer {
   text-align: center;
   padding: 1rem;
